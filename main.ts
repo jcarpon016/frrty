@@ -4,12 +4,6 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.AB, function () {
     radio.sendString("\"POWER\"")
 })
-radio.onReceivedString(function (receivedString) {
-    let receivedstring = 0
-    if (receivedstring == 0) {
-    	
-    }
-})
 input.onButtonPressed(Button.B, function () {
     radio.sendNumber(25)
 })
